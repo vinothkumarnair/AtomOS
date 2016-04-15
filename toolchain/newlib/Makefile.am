@@ -6,7 +6,7 @@ AM_CCASFLAGS = $(INCLUDES) $(CFLAGS)
 
 noinst_LIBRARIES = lib.a
 
-lib_a_SOURCES = syscalls.c trap.S
+lib_a_SOURCES = syscall.c
 lib_a_CCASFLAGS = $(AM_CCASFLAGS)
 lib_a_CFLAGS = $(AM_CFLAGS)
 
